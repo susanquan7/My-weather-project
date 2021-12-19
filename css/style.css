@@ -1,0 +1,56 @@
+h1 {
+  color: rgb(119, 157, 226);
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+}
+h2 {
+  color: rgb(103, 158, 165);
+  font-size: 25px;
+  font-family: "ABeeZee", sans-serif;
+  text-align: center;
+}
+h3 {
+  color: rgb(107, 144, 192);
+  font-size: 23px;
+  font-family: "Signika", sans-serif;
+}
+
+.cloudy-icon {
+  color: lightsteelblue;
+  font-size: px;
+}
+
+.card-body {
+  background-color: rgb(203, 233, 243);
+  padding: 3%;
+  border-radius: 5px;
+}
+
+.card {
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  padding: 10px;
+  margin: 0 auto;
+  margin-top: 10%;
+  border-radius: 5%;
+}
+
+.btn {
+  color: rgb(118, 191, 236);
+  background-color: rgb(144, 217, 241);
+  box-shadow: 1px 1px 2px #dbd7d2;
+  transition: all 200ms ease-in-out;
+}
+.form-control {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  margin-right: 2px;
+  margin-bottom: 10px;
+}
+
+section {
+  color: rgb(119, 157, 226);
+  font-size: 25px;
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+}
