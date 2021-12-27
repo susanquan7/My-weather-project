@@ -15,11 +15,10 @@ h3 {
   font-family: "Signika", sans-serif;
 }
 
-.cloudy-icon {
-  color: lightsteelblue;
-  font-size: px;
+img {
+  display: block;
+  margin: 0 auto;
 }
-
 .card-body {
   background-color: rgb(203, 233, 243);
   padding: 3%;
