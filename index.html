@@ -24,7 +24,7 @@
   </head>
   <body>
     <div class="container">
-      <div class="card" style="width: 25rem;">
+      <div class="card" style="width: 35rem;">
         <div class="card-body">
             <form class="bar" id="search-form">
           <div class="row">
@@ -47,13 +47,15 @@
               
             </div>
           </div>
-
-          <h1 id="city"> </h1>
-           <img src=" https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
-                        alt="Clear"
-                        class="float-left"
-                        />
           
+          <h1 id="city"> </h1>
+          <img src=" https://ssl.gstatic.com/onebox/weather/64/sunny_s_cloudy.png"
+          alt="Clear"
+          class="float-left"
+          id= "icon"
+          />
+          
+          <h2></h2>
           <section>
             
             <span class="temperature" id="temperature">40</span>
@@ -63,7 +65,21 @@
               <a href="#" id="fahrenheit-link">°F</a>
             </span>
           </section>
-          <h2>Partly Cloudy ⛅️</h2>
+          
+              <div class="col-6">
+                  <ul>
+                      <li>
+                          Precipitation 0%
+                      </li>
+                      <li>
+                          Humidity 73%
+                      </li>
+                      <li>
+                          Wind: 2km/h
+                      </li>
+                  </ul>
+              </div>
+          
 
           <h3>
             <ul>
